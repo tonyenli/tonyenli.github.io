@@ -13,25 +13,3 @@
     height: 120px;
     background-position: -120px 0px;
 }
-
-div p {
-    background: #ddd;
-}
-
-.thumbnail {
-    border: 1px solid #ddd;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.thumbnail img {
-    width: 100%;
-}
-
-.thumbnail .caption h3 {
-    font-size: 1em;
-}
-
-.thumbnail .caption p {
-    font-size: 0.75em;
-}
