@@ -1,0 +1,30 @@
+nav {
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul>li {
+    display: inline-block;
+}
+
+header {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+}
+
+.jumbotron {
+    background-image: url(https://source.unsplash.com/1000x600?building);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    border: 1px solid white;
+    border-radius: 0px;
+}
