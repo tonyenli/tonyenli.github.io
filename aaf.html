@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>AFF Landing Page</title>
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/thumbnail.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+    <!--導覽列開始-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   <span class="sr-only">觸發縮放</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>
+                <a class="navbar-brand" href="#">
+                        All About Food
+                </a>
+            </div>
+
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 導覽列中的導覽清單 -->
+                <ul class="nav navbar-nav">
+
+                    <!-- active的選項-->
+                    <li class="active"><a href="#">連結 <span class="sr-only">(目前頁面)</span></a></li>
+                    <li><a href="#">連結</a></li>
+
+                    <!-- 導覽清單中的dropdown選單 -->
+
+                </ul>
+
+                <!-- 導覽列中的表單元素 -->
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜尋</button>
+                </form>
+
+                <!-- 拉到右邊的導覽列清單 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">連結</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">下拉選單 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">選項 1</a></li>
+                            <li><a href="#">選項 2</a></li>
+                            <li><a href="#">選項 3</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">選項 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
+
+
+    <!--輪播開始-->
+    <div id="slideshow" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <!--輪播圖片或內容-->
+            <div class="item active"><img src="https://source.unsplash.com/1000x400?nature" alt=""></div>
+            <div class="item"><img src="https://source.unsplash.com/1000x400?people" alt=""></div>
+            <div class="item"><img src="https://source.unsplash.com/1000x400?food" alt=""></div>
+
+        </div>
+        <!--上一頁 下一頁 按鈕-->
+        <div class="control-btn">
+            <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right" ></span></a>
+        </div>
+        <!--小圓點換頁-->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+        </ol>
+    </div>
+    <!--輪播結尾-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-lg-3">
+                <div class="thumbnail">
+                    <img src="https://source.unsplash.com/800x600?buildings" alt="">
+                    <div class="caption">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis debitis adipisci aut, earum odio nemo repudiandae assumenda dignissimos, soluta fugit laborum illo. Iste aut assumenda, eos mollitia reiciendis voluptatem aspernatur?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-3">
+                <div class="thumbnail">
+                    <img src="https://source.unsplash.com/800x600?nature" alt="">
+                    <div class="caption">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit non voluptatum, aspernatur illo quibusdam accusantium veritatis dolorem iure vero dolore cupiditate magnam atque saepe in soluta odio, quod necessitatibus qui.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-3">
+                <div class="thumbnail">
+                    <img src="https://source.unsplash.com/800x600?food" alt="">
+                    <div class="caption">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptatem facilis neque tempora, sint exercitationem quod magnam harum vitae corporis, eligendi blanditiis perferendis architecto! Sit nulla repellat harum repellendus nihil!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-lg-3">
+                <div class="thumbnail">
+                    <img src="https://source.unsplash.com/800x600?object" alt="">
+                    <div class="caption">
+                        <h3>Lorem ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas quae at aut tempore deserunt ratione nostrum pariatur, fuga repellat placeat vitae eaque a nam molestiae. Suscipit exercitationem deleniti reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-lg-4">
+                <!--表單開始-->
+                <form>
+                    <!--欄位標籤與輸入方塊組開始-->
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">電子郵件</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <!--欄位標籤與輸入方塊組結尾-->
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">密碼</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">檔案上傳</label>
+                        <input type="file" id="exampleInputFile">
+                        <p class="help-block">區塊等級的說明文字，請放在此</p>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                        <input type="checkbox"> 請勾選
+                    </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <!--表單結尾-->
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12">
+                    All About Food is a TNEa copy right brand.
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
