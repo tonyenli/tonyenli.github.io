@@ -5,48 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/stylemain.css">
+    <link rel="stylesheet" href="css/thumbnail.css">
+    <script src="https://goo.gl/OmE7hm"></script>
 
 
-    <style>
-        body {
-            position: relative;
-        }
-        
-        #section1 {
-            padding-top: 50px;
-            height: 500px;
-            color: #fff;
-            background-color: #1E88E5;
-        }
-        
-        #section2 {
-            padding-top: 50px;
-            height: 500px;
-            color: #fff;
-            background-color: #673ab7;
-        }
-        
-        #section3 {
-            padding-top: 50px;
-            height: 500px;
-            color: #fff;
-            background-color: #ff9800;
-        }
-        
-        #section41 {
-            padding-top: 50px;
-            height: 500px;
-            color: #fff;
-            background-color: #00bcd4;
-        }
-        
-        #section42 {
-            padding-top: 50px;
-            height: 500px;
-            color: #fff;
-            background-color: #009688;
-        }
-    </style>
 </head>
 
 <!--必要設定：data-target:指向要監聽的導覽列-->
@@ -62,21 +26,28 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">WebSiteName</a>
+                <a class="navbar-brand" href="index.html">Anthony</a>
             </div>
             <div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <!--超連結連結到下面的段落ＩＤ-->
-                        <li><a href="#section1">Section 1</a></li>
-                        <li><a href="#section2">Section 2</a></li>
-                        <li><a href="#section3">Section 3</a></li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                        <li><a href="#section1">Me</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#section41">Section 4-1</a></li>
-                                <li><a href="#section42">Section 4-2</a></li>
+                                <li><a href="#section21">My Resume TW</a></li>
+                                <li><a href="#section22">My Resume EN</a></li>
+                                <li><a href="#section23">My Company</a></li>
                             </ul>
                         </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">HW<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#section31">HW1</a></li>
+                                <li><a href="#section32">HW2</a></li>
+                                <li><a href="#section33">HW3</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -84,30 +55,153 @@
     </nav>
 
     <div id="section1" class="container-fluid">
-        <h1>Section 1</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+        <div class="row">
+            <h1>我</h1>
+            <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+            <div class="col-md-8 col-sm-12  col-lg-8 ">
+                <div class="line"></div>
+                <h3>我是ㄧ個策略型，邏輯型，技術型，圖像性與情境式思考型，實做型的創業人。 由於我的生活就是工作，所以思考工作，討論工作，執行工作與學習如何做更好，佔了我的生活很大ㄧ部分。</h3>
+                <h3>未來希望我們所做的事是可以促進社會進步改變環境。</h3>
+            </div>
+            <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+        </div>
+
+
     </div>
-    <div id="section2" class="container-fluid">
-        <h1>Section 2</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <div id="section21" class="container-fluid">
+
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+        <div class="col-md-8 col-sm-12  col-lg-8 ">
+            <div class="content">
+                <div class="row">
+                    <div class="thumbnail">
+                        <img src="images/infosec.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <h1>我的履歷 (繁體中文)</h1>
+            <div class="line"></div>
+            <h3>
+                過去的我，住了紐約23年，在金融業裡當了超過10年的資訊/資安人。 擔任過技術支援工程師，系統架構工程師，系統分析師，專案管理，資安長，等職位。 業餘時，我是ㄧ個自學的 Filemaker開發者，服務中小企業架構維護電腦系統，網路，軟體開發的專案。</h3>
+            <div class="btn btn-primary btn-lg">
+                <a href="/resumetw.html" target="_blank">Read More</a>
+            </div>
+        </div>
+
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+
     </div>
-    <div id="section3" class="container-fluid">
-        <h1>Section 3</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <div id="section22" class="container-fluid">
+
+
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+        <div class="col-md-8 col-sm-12  col-lg-8 ">
+            <div class="content">
+                <div class="row">
+                    <div class="thumbnail">
+                        <img src="images/wallstreet.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <h1>My Resume (English)</h1>
+            <div class="line"></div>
+            <h3>
+                I am a Senior Information Technologist (over 10 years) specializing in information security and information technology operations process. Easily able to leverage technology to achieve business objectives for controls, effectiveness, competitive advantages with respect to information technology. Experienced in IT Governance, Security Review, Risk Assessment, IT Operations, Process Engineering, Project Management, and Strategic Planning.
+            </h3>
+            <div class="btn btn-primary btn-lg">
+                <a href="/resumeen.html" target="_blank">Read More</a>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+
     </div>
-    <div id="section41" class="container-fluid">
-        <h1>Section 4 Submenu 1</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <div id="section23" class="container-fluid">
+
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+        <div class="col-md-8 col-sm-12  col-lg-8 ">
+
+            <div class="content">
+                <div class="row">
+                    <div class="thumbnail">
+                        <img src="images/mango.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <h1>My Company - 芒果社企</h1>
+            <div class="line"></div>
+            <h3>
+                芒果社企是致力解決台灣營養問題的社會企業,透過營養師設計的商品與服務,將食農教育及營養諮詢帶入大眾日常生活的各種不同場域,包括職場企業、社區團體、健身運動、親子學童、老人長照等保健預防健康中心。
+            </h3>
+            <h3>
+                你知道嗎美國有研究顯示：
+            </h3>
+            <h3>
+                每$1美元投入於營養照護，可減少$8美元的未來的醫療開支!!!
+            </h3>
+            <div class="btn btn-primary btn-lg">
+                <a href="https://mango.care" target="_blank">Read More</a>
+
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+
     </div>
-    <div id="section42" class="container-fluid">
-        <h1>Section 4 Submenu 2</h1>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <div id="section31" class="container-fluid">
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+        <div class="col-md-8 col-sm-12  col-lg-8 ">
+            <h1>Homework 1</h1>
+            <h3>
+                Create a website. All About Food
+            </h3>
+            <div class="btn btn-primary btn-lg">
+                <a href="/aaf.html">Read More</a></div>
+        </div>
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+
     </div>
+    <div id="section32" class="container-fluid">
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+        <div class="col-md-8 col-sm-12  col-lg-8 ">
+
+            <div class="content">
+                <div class="row">
+                    <div class="thumbnail">
+                        <img src="images/apple.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <h1>Homework 2</h1>
+            <h3>Draw an iPhone</h3>
+            <div class="line"></div>
+            <div class="btn btn-primary btn-lg">
+                <a href="iphone.html" target="_blank">Read More</a>
+
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-12  col-lg-2 "></div>
+    </div>
+
+
+    <div id="section33" class="container-fluid">
+        <h1>Homework 3</h1>
+        <h3>Javascript</h3>
+        <div class="btn btn-primary btn-lg">
+            <a href="#">Read More</a></div>
+    </div>
+
+
+    <footer>
+        <div class="col-md-4 col-sm-12  col-lg-4 ">Anthony's HW Nav Page</div>
+        <div class="col-md-4 col-sm-12  col-lg-4 ">Colum1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut alias dolorum ad eos fugiat accusantium maxime velit nostrum obcaecati cumque eveniet provident tempora suscipit temporibus nulla, pariatur odio officia.</div>
+        <div class="col-md-4 col-sm-12  col-lg-4 ">Colum 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dignissimos beatae dolore a at pariatur delectus inventore, aperiam vitae obcaecati!</div>
+    </footer>
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js" </script>

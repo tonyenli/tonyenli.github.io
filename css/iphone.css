@@ -1,0 +1,232 @@
+.iphone {
+    margin: 50px;
+    position: relative;
+    border: 0px;
+    height: 688px;
+    width: 338px;
+    background-repeat: no-repeat;
+    background-position: -378px -20px;
+}
+
+.iphoneframe {
+    position: absolute;
+    border: 5px solid #656565;
+    background-color: black;
+    height: 685px;
+    width: 330px;
+    border-radius: 55px;
+    top: 0px;
+    left: 4px;
+}
+
+.leftside1 {
+    position: absolute;
+    border: 0px solid black;
+    background-color: #383838;
+    border-radius: 5px;
+    width: 4px;
+    height: 34px;
+    top: 84px;
+    left: 2px;
+}
+
+.leftside2 {
+    position: absolute;
+    border: 0px solid black;
+    background-color: #383838;
+    border-radius: 5px;
+    width: 4px;
+    height: 50px;
+    top: 145px;
+    left: 2px;
+}
+
+.leftside3 {
+    position: absolute;
+    border: 0px solid black;
+    background-color: #383838;
+    border-radius: 5px;
+    width: 4px;
+    height: 50px;
+    top: 208px;
+    left: 2px;
+}
+
+.rightside {
+    position: absolute;
+    border: 0px solid black;
+    background-color: #383838;
+    border-radius: 5px;
+    width: 4px;
+    height: 50px;
+    top: 145px;
+    left: 332px;
+}
+
+.screen {
+    position: absolute;
+    border: 1px solid #656565;
+    width: 292px;
+    height: 520px;
+    top: 83px;
+    left: 23px;
+    background-color: white;
+}
+
+.home {
+    position: absolute;
+    border: 2px solid #656565;
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;
+    top: 617px;
+    left: 143px;
+}
+
+.cam {
+    position: absolute;
+    border: 1px solid #656565;
+    background-color: #383838;
+    border-radius: 20px;
+    width: 12px;
+    height: 12px;
+    top: 36px;
+    left: 110px;
+}
+
+.speaker {
+    position: absolute;
+    border: 1px solid #656565;
+    background-color: #383838;
+    border-radius: 20px;
+    width: 55px;
+    height: 6px;
+    top: 40px;
+    left: 142px;
+}
+
+.signal1 {
+    position: absolute;
+    border: 0px solid black;
+    background-color: black;
+    border-radius: 20px;
+    width: 5px;
+    height: 5px;
+    top: 89px;
+    left: 27px;
+}
+
+.signal2 {
+    position: absolute;
+    border: 0px solid black;
+    background-color: black;
+    border-radius: 20px;
+    width: 5px;
+    height: 5px;
+    top: 89px;
+    left: 34px;
+}
+
+.signal3 {
+    position: absolute;
+    border: 0px solid black;
+    background-color: black;
+    border-radius: 20px;
+    width: 5px;
+    height: 5px;
+    top: 89px;
+    left: 40px;
+}
+
+.signal4 {
+    position: absolute;
+    border: 0px solid black;
+    background-color: black;
+    border-radius: 20px;
+    width: 5px;
+    height: 5px;
+    top: 89px;
+    left: 46px;
+}
+
+.signal5 {
+    position: absolute;
+    border: 0px solid black;
+    background-color: black;
+    border-radius: 20px;
+    width: 5px;
+    height: 5px;
+    top: 89px;
+    left: 52px;
+}
+
+.signalimg {
+    position: absolute;
+    top: 83px;
+    left: 62px;
+}
+
+.arrowright {
+    position: absolute;
+    top: 553px;
+    left: 98px;
+}
+
+.batterynumb {
+    position: absolute;
+    top: 86px;
+    left: 260px;
+    font-size: 10px;
+    font-family: Helvetica Neue;
+}
+
+.batterybar {
+    position: absolute;
+    border: 0px solid black;
+    background-color: black;
+    width: 20px;
+    height: 8px;
+    top: 89px;
+    left: 290px;
+}
+
+.batterybarh {
+    position: absolute;
+    border: 0px solid black;
+    background-color: black;
+    width: 4px;
+    height: 4px;
+    top: 91px;
+    left: 308px;
+}
+
+.hello {
+    position: absolute;
+    top: 308px;
+    left: 113px;
+    font-size: 50px;
+    font-family: Helvetica Neue;
+    color: #333333;
+}
+
+.blueinfo {
+    position: absolute;
+    border: 1px solid #0080ff;
+    color: #0080ff;
+    text-align: center;
+    border-radius: 20px;
+    width: 18px;
+    height: 18px;
+    top: 576px;
+    left: 288px;
+    font-family: Helvetica Neue;
+}
+
+.slide {
+    position: absolute;
+    color: #9d9d9d;
+    text-align: left;
+    top: 553px;
+    left: 120px;
+    font-family: Helvetica Neue;
+}

@@ -1,8 +1,8 @@
 /* 圖片模組 */
 
 .thumbnail {
-    border: 1px solid #ddd;
-    padding: 5px;
+    border: 0px solid #ddd;
+    padding: 0px;
     border-radius: 5px;
 }
 
@@ -17,4 +17,8 @@
 
 .thumbnail .caption p {
     font-size: 0.75em;
+}
+
+#section21 img {
+    background-image: url(/images/infosec.jpg)
 }
