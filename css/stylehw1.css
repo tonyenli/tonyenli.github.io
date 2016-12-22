@@ -1,0 +1,22 @@
+.navbar {
+    margin: 0px;
+    background-color: white;
+    border-radius: 0px;
+    border-style: none;
+}
+
+.item img {
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #f26a6a;
+}
+
+footer {
+    color: white;
+    padding: 30px;
+    background-color: #f26a6a;
+    display: block;
+    text-align: left;
+}
