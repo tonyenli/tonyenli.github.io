@@ -10,7 +10,9 @@
 }
 
 .container input {
-    margin: 3px;
+    margin: 5px;
+    width: 400px;
+    text-align: right;
 }
 
 [id^="message"] {
@@ -25,20 +27,22 @@
 
 #message1 {
     top: 110px;
-    left: 0px;
+    left: 15px;
 }
 
 #message2 {
     top: 110px;
-    left: 200px;
+    left: 215px;
 }
 
 #message3 {
     top: 260px;
-    left: 0px;
+    left: 15px;
 }
 
 #message4 {
     top: 260px;
-    left: 200px;
+    left: 215px;
 }
+
+input[type=text] {}
