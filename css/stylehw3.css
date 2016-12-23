@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container img {
+    width: 400px;
+}
+
+.container input {
+    margin: 3px;
+}
+
+[id^="message"] {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#message1 {
+    top: 110px;
+    left: 0px;
+}
+
+#message2 {
+    top: 110px;
+    left: 200px;
+}
+
+#message3 {
+    top: 260px;
+    left: 0px;
+}
+
+#message4 {
+    top: 260px;
+    left: 200px;
+}

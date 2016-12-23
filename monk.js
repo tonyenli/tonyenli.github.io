@@ -1,9 +1,4 @@
 $(function () {
-    $("#me").hide();
-    $("#me").slideDown(3000);
-})
-
-$(function () {
 
     $("#btn").click(function () {
 

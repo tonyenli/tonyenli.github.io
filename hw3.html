@@ -9,19 +9,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="css/stylehw3.css">
+    <script src="monk.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>第一眼！看出你的個性...</h1>
+                <h1>到底是真的還是假的...</h1>
             </div>
             <div class="col-md-4">
-                <a href="" class="thumbnail">
-                    <img src="/images/wow.jpg" alt="">
-                </a>
+                <div class="container">
+                    <img src="images/monk.png" alt="">
+                    <div id="message1"></div>
+                    <div id="message2"></div>
+                    <div id="message3"></div>
+                    <div id="message4"></div>
+
+                    <div>
+                        <input type="text" name="message1" placeholder="今天回家你打開門一看">
+                        <input type="text" name="message2" placeholder="妳的老公跟別的女人在睡覺">
+                        <br>
+                        <input type="text" name="message3" placeholder="假的!">
+                        <input type="text" name="message4" placeholder="哎呀!我的眼睛業障重阿!">
+                        <br>
+                    </div>
+                    <button id="btn">產生</button>
+                </div>
             </div>
             <div class="col-md-8">
 
